@@ -6,13 +6,13 @@ You need DJ, Minigunner, Accelerator, Cowboy, Ranger.
 getgenv().Returnhub = {
     autoskip = true,
     SellAllTower = false,
-    AtWave = 40,
+    AtWave = 50,
     autoCommander = true,
     Map = "Summer Castle",
-    Difficulty = "Easy",
-    MacroUrl = "https://githubusercontent.com",
-    Replay = false
+    Difficulty = "Frost",
+    MacroUrl = "https://raw.githubusercontent.com/shshshhsdjdhdhdh00-star/TDS-frost-mode/refs/heads/main/FROST%20MODE%20TDS",
+    Replay = true
 }
 
-loadstring(game:HttpGet("https://githubusercontent.com"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shshshhsdjdhdhdh00-star/TDS-frost-mode/refs/heads/main/FROST%20MODE%20TDS"))()
 ```
