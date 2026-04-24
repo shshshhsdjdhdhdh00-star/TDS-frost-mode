@@ -8,8 +8,8 @@ getgenv().Returnhub = {
     autoCommander = true,
     Map = "Summer Castle",
     Difficulty = "Easy",
-    MacroUrl = "https://githubusercontent.com",
+    MacroUrl = https://raw.githubusercontent.com/shshshhsdjdhdhdh00-star/TDS-frost-mode/refs/heads/main/FROST%20MODE%20TDS
     Replay = false
 }
 
-loadstring(game:HttpGet("https://githubusercontent.com"))()
+https://raw.githubusercontent.com/shshshhsdjdhdhdh00-star/TDS-frost-mode/refs/heads/main/FROST%20MODE%20TDS
