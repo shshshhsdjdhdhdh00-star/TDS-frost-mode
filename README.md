@@ -1,18 +1,16 @@
-# TDS Frost Mode Macro
-You need DJ, Minigunner, Accelerator, Cowboy, Ranger.
-
-### Copy this code:
-```lua
-getgenv().Returnhub = {
-    autoskip = true,
-    SellAllTower = false,
-    AtWave = 50,
-    autoCommander = true,
+getgenv().ReturnHub = {
+    autoskip = false
+    SellAllTower = false
+    AtWave = 50 
+    Modifiers = {} 
+    AutoAbilities = true
+    AutoRewards = true 
+    SnowcharmsPickup = false
+    macroURL ="https://raw.githubusercontent.com/shshshhsdjdhdhdh00-star/TDS-frost-mode/refs/heads/main/script.lua" 
+    replay = true
+    Gamemode = "Survival",
     Map = "Summer Castle",
     Difficulty = "Frost",
-    MacroUrl = "https://raw.githubusercontent.com/shshshhsdjdhdhdh00-star/TDS-frost-mode/refs/heads/main/FROST%20MODE%20TDS",
-    Replay = true
+    Loadout = {"Accelerator", "DJ Booth", "Cowboy", "Minigunner", "Ranger"},
 }
-
-loadstring(game:HttpGet("https://raw.githubusercontent.com/shshshhsdjdhdhdh00-star/TDS-frost-mode/refs/heads/main/FROST%20MODE%20TDS"))()
-```
+loadstring(game:HttpGet("https://raw.githubusercontent.com/shshshhsdjdhdhdh00-star/TDS-frost-mode/refs/heads/main/script.lua"))()
